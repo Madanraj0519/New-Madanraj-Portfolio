@@ -51,7 +51,7 @@ const Portfolio = () => {
             
             {/* Gym website */}
             <div class={`work rounded-lg overflow-hidden border border-zinc-100 p-2 py-24 hover:relative`}>
-                <h1 className='relative -top-16 bg-red-700 w-28 h-8  py-1 px-2 rounded'>Freelancing</h1>
+                {!isShowMode && (<h1 className='relative -top-16 bg-red-700 w-28 h-8  py-1 px-2 rounded'>Freelancing</h1>)}
                 <img src={underdog} alt="" className='w-full min-h-full  rounded-lg block'/>
                 <div class={`layer w-full h-0 bg-red-700 rounded-lg ${!isShowMode ? "absolute":""} left-0 bottom-0 overflow-hidden flex items-center justify-center flex-col py-o px-10 text-center text-lg`}>
                     <h2 className='mb-4 font-semibold'>Underdogs Gym Website & DashBoard</h2>
@@ -68,7 +68,7 @@ const Portfolio = () => {
 
             {/* Piechips */}
             <div class={`work rounded-lg overflow-hidden border border-zinc-100 p-2 py-24 hover:relative`}>
-                <h1 className='relative -top-16 bg-red-700 w-28 h-8  py-1 px-2 rounded'>Freelancing</h1>
+            {!isShowMode && (<h1 className='relative -top-16 bg-red-700 w-28 h-8  py-1 px-2 rounded'>Freelancing</h1>)}
                 <img src={piechip} alt="" className='w-full min-h-full  rounded-lg block '/>
                 <div class={`layer w-full h-0 bg-red-700 rounded-lg ${!isShowMode ? "absolute":""} left-0 bottom-0 overflow-hidden flex items-center justify-center flex-col py-o px-10 text-center text-lg`}>
                     <h2 className='mb-4 font-semibold'>Main page & User login</h2>
