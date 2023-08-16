@@ -20,7 +20,7 @@ const About = () => {
          Eager to create visually appealing and responsive web applications that provide seamless user experiences. 
          Looking to contribute and grow in a dynamic team environment.</p>
 
-        <a href='/Rezume.pdf' aria-label='resume' download={true} rel='noreferrer' target={'_blank'} className='btn inline-block mt-4 px-3 py-3 
+        <a href='/Madanraj-resume.pdf' aria-label='resume' download={true} rel='noreferrer' target={'_blank'} className='btn inline-block mt-4 px-3 py-3 
          bg-red-700 text-white cursor-pointer 
           text-2xl hover:bg-red-500 '>Download cv</a>
 
