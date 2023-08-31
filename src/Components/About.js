@@ -1,5 +1,5 @@
 import React from 'react';
-import Madan from "../images/madanrajj.jpg";
+import Madan from "../images/Madanraj (3).jpg";
 
 const About = () => {
   return (
@@ -9,20 +9,20 @@ const About = () => {
         <span className='text-red-700 uppercase'> me</span></h1>
 
     <div className='row-1 flex flex-wrap gap-6 pb-8'>
-    <div className='image'>
+    <div className='image' data-aos="fade-up">
         <img src={Madan} alt='aboutPic' className='w-full h-full object-cover border-8 border-white rounded-lg shadow-lg shadow-zinc-900' />
     </div>
 
-    <div className='content'>
+    <div className='content' data-aos="fade-up">
         <h3 className='text-white text-4xl pb-2 mt-3'>This is Madanraj & i am a front-end developer</h3>
         <p className='text-zinc-100 text-xl px-2 py-0 pb-2 mt-4'>
          Enthusiastic and detail-oriented front-end developer with a strong foundation in HTML, CSS, JavaScript, ReactJS and Tailwind CSS. 
          Eager to create visually appealing and responsive web applications that provide seamless user experiences. 
          Looking to contribute and grow in a dynamic team environment.</p>
 
-        <a href='/Madanraj-resume.pdf' aria-label='resume' download={true} rel='noreferrer' target={'_blank'} className='btn inline-block mt-4 px-3 py-3 
+        {/* <a href='/Madanraj-resume.pdf' aria-label='resume' download={true} rel='noreferrer' target={'_blank'} className='btn inline-block mt-4 px-3 py-3 
          bg-red-700 text-white cursor-pointer 
-          text-2xl hover:bg-red-500 '>Download cv</a>
+          text-2xl hover:bg-red-500 '>Download cv</a> */}
 
    <h1 className='heading mt-10 text-2xl pb-4 text-white uppercase font-medium'>
     <span className='text-red-700 uppercase'>my</span> skills</h1>

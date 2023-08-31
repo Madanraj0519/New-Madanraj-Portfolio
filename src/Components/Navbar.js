@@ -37,7 +37,7 @@ const Navbar = (props) => {
      h-20 px-4 text-white bg-background-color fixed border-b border-gray-500`}>
         <div>
             <Link to='home'>
-               <p className='ml-2 text-4xl font-signature cursor-pointer'>Madan </p>
+               <p className='ml-2 text-4xl font-signature cursor-pointer'>Portfolio</p>
             </Link>
         </div>
 

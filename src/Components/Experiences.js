@@ -34,7 +34,7 @@ const Experiences = () => {
         <h1 className='heading text-3xl md:text-5xl pb-2 text-white uppercase font-medium'>
             <span className='text-red-700 uppercase'>my </span> experience</h1>
 
-        <div className='box-container flex flex-col gap-6'>         
+        <div className='box-container flex flex-col gap-6' data-aos="fade-up">         
             {
                  experience.map(exp => (
                     <div className='box border-l-4 border-red-700 pl-4 pr-4 pb-4'>
