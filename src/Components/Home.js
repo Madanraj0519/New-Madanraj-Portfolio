@@ -46,7 +46,7 @@ const Home = () => {
               <span> Hire Me</span>
             </a>
             <a
-              href='/Madanraj-resume.pdf'
+              href='/Madan_raj_CV.pdf'
               className="flex items-center gap-2 border- text-[1rem] text-black bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
               download
             >

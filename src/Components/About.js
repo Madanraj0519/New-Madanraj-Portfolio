@@ -1,5 +1,5 @@
 import React from 'react';
-import Madan from "../images/Madanraj (3).jpg";
+import Madan from "../images/madanrajj.jpg";
 
 const About = () => {
   return (
@@ -27,7 +27,7 @@ const About = () => {
    <h1 className='heading mt-10 text-2xl pb-4 text-white uppercase font-medium'>
     <span className='text-red-700 uppercase'>my</span> skills</h1>
 
-    <div className='row-2 flex gap-6 items-center px-2 py-0'>
+    <div className='row-2 flex gap-6 items-center justify-center px-2 py-0'>
         <div className='skills'>
             <div className='progress'>
                 <h3>ReactJS<span>80%</span></h3>
