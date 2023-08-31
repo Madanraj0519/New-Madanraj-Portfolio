@@ -41,7 +41,7 @@ const Home = () => {
             <a
               href="https://www.linkedin.com/in/madan-raj-7b8b23232/" aria-label='LinkedIn'
               rel='noreferrer' target={'_blank'}
-              className=" bg-black text-[1rem] border border-white text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
+              className=" bg-black text-[1rem] border border-white text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-red-500"
             >
               <span> Hire Me</span>
             </a>

@@ -64,6 +64,10 @@
     background-position: center;
   }
 
+  .home .icons > ul > li  a:hover {
+    transform: translateY(-5px);
+  }
+
   @media screen  and (max-width:768px){
     .home{
       width: 100%;
@@ -208,10 +212,6 @@
 .social-icons a {
   text-decoration: none;
   transition: color 0.5s, transform 0.5s;
-}
-
-.social-icons a:hover {
-  transform: translateY(-5px);
 }
 
 form input,
