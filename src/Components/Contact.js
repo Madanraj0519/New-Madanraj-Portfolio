@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaGithub, FaTwitter, FaInstagram, FaLinkedin, FaPhone, FaPaperPlane, FaLocationDot} from "react-icons/fa";
+import {FaPhone, FaPaperPlane,} from "react-icons/fa";
 import {IoLocation} from "react-icons/io5"
 
 const Contact = () => {

@@ -38,6 +38,18 @@ const About = () => {
                 <div className='bar'><span></span></div>
             </div>
             <div className='progress'>
+                <h3>NodeJS <span>50%</span></h3>
+                <div className='bar'><span></span></div>
+            </div>
+            <div className='progress'>
+                <h3>ExpressJS <span>50%</span></h3>
+                <div className='bar'><span></span></div>
+            </div>
+            <div className='progress'>
+                <h3>MongoDB <span>50%</span></h3>
+                <div className='bar'><span></span></div>
+            </div>
+            <div className='progress'>
                 <h3>Redux <span>60%</span></h3>
                 <div className='bar'><span></span></div>
             </div>
@@ -56,10 +68,7 @@ const About = () => {
         </div>
 
         <div className='box-container flex flex-wrap gap-6'>
-            <div className='box flex items-center justify-center gap-2'>
-                <h3>  0 </h3>
-                <p>Year of experience(fresher)</p>
-            </div>
+          
             <div className='box flex items-center justify-center gap-2'>
                 <h3>  2+ </h3>
                 <p>Happy clients</p>

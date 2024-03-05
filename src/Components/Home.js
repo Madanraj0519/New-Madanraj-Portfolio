@@ -6,9 +6,9 @@ import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaFacebook, FaLinkedinIn, } from "react-icons/fa";
+import { FaLinkedinIn, } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
-import { FaPlay } from "react-icons/fa";
+// import { FaPlay } from "react-icons/fa";
 
 const Home = () => {
 
@@ -23,9 +23,9 @@ const Home = () => {
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "Front End Developer",
+                "MERN Stack Developer",
                 2500,
-                "Freelancer",
+                "Front End Developer",
                 2500,
                 "",
               ]}
@@ -46,7 +46,7 @@ const Home = () => {
               <span> Hire Me</span>
             </a>
             <a
-              href='https://drive.google.com/file/d/14muFxLtZw2U2neSII3b_jh5kSqADmkBc/view?usp=sharing' rel='noreferrer' target={'_blank'}
+              href='https://drive.google.com/file/d/1vBK6Xthr3Vgp5f2Rs36DOURFmNOTmA9-/view?usp=sharing' rel='noreferrer' target={'_blank'}
               className="flex items-center gap-2 border- text-[1rem] text-black bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-red-500"
               download
             >
